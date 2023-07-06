@@ -31,6 +31,7 @@ a {
 }
 
 h5 {
+    font-size: 18px;
     font-weight: 300;
     line-height: 24px;
     font-family: 'Kanit', sans-serif;
@@ -43,7 +44,7 @@ h1{
 }
 
 h2{
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 500;
     font-family: 'Kanit', sans-serif;
 }
@@ -266,7 +267,6 @@ button{
     display: grid;
     grid-template-rows: 150px auto;
     margin: auto;
-    padding: 20px;
 }
 
 .onestop{
@@ -277,17 +277,13 @@ button{
 }
 
 .frame1692{
-    /* border: 1px solid red; */
+    height: 100%;
     width: auto;
-    display: grid;
-    justify-content: space-around;
-    padding: 20px 0;
-   
 }
 
 .frame1692 p{
-    vertical-align: middle;
-    font-size: 36px;
+    justify-self: center;
+    font-size: 40px;
     font-weight: 500;
     font-family: 'Kanit', sans-serif;
     text-align: left;
@@ -295,10 +291,12 @@ button{
 }
 
 .frame1715{
-    padding: 20px;
+    /* padding: 20px; */
     width: 60%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 70px;
+    align-self: center;
     font-family: 'Kanit', sans-serif;
 }
 
@@ -307,13 +305,13 @@ button{
     line-height: 24px;
 }
 
-.frame1715 h1{
-    font-weight: 500;
+.frame1715 h2{
+    font-weight: 400;
 }
 
 .whyscissors{
     margin: auto;
-    padding: 50px 0;
+    padding: 100px 0;
     display: flex;
     justify-content: space-between;
 }
@@ -334,18 +332,24 @@ button{
 }
 
 .text h5{
-    padding: 15px;
+    padding: 10px;
+    font-weight: 300;
+    line-height: 28px;
+}
+.text h2{
+   font-size: 40px;
 }
 
 .widgets{
     width: 70%;
-    height: 400px;
-    padding: 0 0 0 60px;
+    height: auto;
+    padding: 0 0 0 50px;
     display: grid;
     grid-template-columns: 1fr;
 }
 .topwidget{
     display: flex;
+    margin-bottom: 25px;
 }
 .bottomwidget{
     display: flex;
@@ -355,7 +359,7 @@ button{
     /* padding: 5px 20px; */
     padding-bottom: 20px;
     padding-top: 0;
-    padding-right: 25px;
+    padding-right: 10px;
 }
 .icon{
     height: 56px;
@@ -386,14 +390,15 @@ button{
     background-color: var(--bg-color-400);
     height: auto;
     width: 100%;
+    padding: 75px;
 }
 
 .form{
     width: 40%;
     height: auto;
     background-color: var(--bg-black-300);
-    margin: 50px auto;
-    padding: 50px;
+    margin:0 auto;
+    padding: 25px;
     border-radius: 12px;
 }
 .input{
@@ -406,13 +411,14 @@ button{
 }
 
 #URL{
+    margin-bottom: 10px;
     padding-left: 20px;
     border-radius: 10px;
     width: 100%;
     height: 45px;
     border: 1px solid var(--text-Primary-400);
 }
- form .flex{
+.flex{
     display: flex;
     justify-content: space-between;
 }
@@ -444,35 +450,61 @@ button{
 
 .frame1713{
     margin: 50px auto;
-    width: 470px;
+    width: 560px;
     height: auto;
     text-align: center;
+    line-height: 10px;
+    position: relative;
     
 }
 
 .frame1713 h2{
     line-height: 50px;
+    font-size: 40px;
+}
+.frame1713 img{
+    position: absolute;
+    left: -10px;
 }
 .frame1713 h5{
     padding: 0 20px;
-    line-height: 20px;
-    font-weight: 400;
+    line-height: 25px;
+    font-weight: 300;
 }
 
 .group9{
-    margin: 0;
+    margin: 100px 0;
     width: 100%;
-    height: 470px;
+    height: auto;
     display: flex;
     justify-content: end;
     position: relative;
-
+}
+.group9 h5{
+   font-size: 14px;
+   font-weight: 300;
+   line-height: 40px;
+}
+.group9 h4{
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 40px;
+}
+.group9 h3{
+   font-size: 24px;
+   font-weight: 400;
+   line-height: 100px;
+}
+.group9 h2{
+   font-size: 40px;
+   font-weight: 600;
+   line-height: 20px;
 }
 
 .basic{
     position: absolute;
-    top: 50px;
-    left: 20px;
+    top: 70px;
+    left: 50px;
     height: auto;
     width: 350px;
     border: 1px solid var(--text-Primary-400);
@@ -481,11 +513,11 @@ button{
     z-index:1;
 }
 .professional{
-    height: 100%;
-    width: 410px;
+    height: 600px;
+    width: 450px;
     margin: auto;
     border-radius: 15px;
-    padding: 70px 0 0 50px;
+    padding: 80px 0 0 100px;
     border: 1px solid var(--text-Primary-400);
     background-color: var(--bg-color-400);
     z-index: 1;
@@ -496,8 +528,8 @@ button{
 .teams{
     list-style-type: none;
     position: absolute;
-    top: 50px;
-    right: 20px;
+    top: 70px;
+    right: 50px;
     height: auto;
     width: 350px;
     padding: 20px 0 30px 100px;
@@ -514,21 +546,36 @@ button{
     height: auto;
     width: 100%;
     margin: 0;
-    border: 1px solid red;
 }
 
 .frame1652{
     width: 100%;
-    padding: 20px;
+    padding-top: 50px;
+    height: auto;
+    position: relative;
+}
+.frame1652 img{
+    position: absolute;
+    bottom: 0;
+    left: 44%;
 }
 .frame1652 h1{
-    width: 100px;
+    font-size: 40px;
+    letter-spacing: 1px;
+    width: auto;
     margin: auto;
+    text-align: center;
 }
 .frame1651{
     width: 70%;
-    margin: auto;
+    margin: 30px auto;
     padding: 20px;
+}
+.frame1651 h4{
+    font-size: 20px;
+}
+.frame1651 h5{
+    font-size: 16px;
 }
 .plus{
     padding: 10px;
