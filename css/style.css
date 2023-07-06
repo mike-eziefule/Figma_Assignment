@@ -23,6 +23,7 @@
     outline: none;
     text-decoration: none;
     box-sizing: border-box;
+    
 }
 a {
     text-decoration: none;
@@ -36,7 +37,7 @@ h5 {
 }
 
 h1{
-    font-size: 36px;
+    font-size: 48px;
     font-weight: 600;
     font-family: 'Kanit', sans-serif;
 }
@@ -48,65 +49,65 @@ h2{
 }
 
 h3{
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 400;
     font-family: 'Kanit', sans-serif;
 }
 
 h4{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     font-family: 'Kanit', sans-serif;
 }
 
 body{
-    margin: 2% 8%;
-    display: grid;
-    grid-template-columns: auto;
-    flex-wrap: wrap;
+    width: 100%;
+    padding: 2% 10%;
     height: auto;
+    border: 1px solid black;
+
 }
+
+/* background-image: url(../media/Rectangle.png);
+background-position: center;
+background-size: 100px auto; */
 
 .HeroSection{
     display: grid;
-    grid-template-rows: 50px auto 300px 100px;
-    flex-wrap: nowrap;
-    background-color: var(--bg-color-000);
+    /* background-color: var(--bg-color-000); */
+    
     height: auto;
-    width: auto;
+    width: 100%;
+    margin: auto;
 }
 
 .Heroheader{
     background-color: var(--bg-black-300);
     width: 100%;
-    display: grid;
-    justify-content: space-evenly;
-    grid-template-columns: auto auto 200px;
-    align-items: top;  
-    /* margin-bottom: 150px;   */
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0;
+    
 }
 
 .group-3{
     border: 1px solid var(--text-Primary-400);
     border-radius: 24px;
-    padding: 15px;
-    display: grid;
-    align-self: center;
-    grid-template-rows: 1fr 1fr;
-    height: 80%;
-    width: 80%;
-    margin: 50px auto;
+    padding: 50px;
+    margin: auto;
+    height: auto;
+    width: 50%;
     background-color: rgba(236, 137, 137, 0.1);
 }
-.group3a , .group3b{ 
+.group3b{ 
     font-family: 'Kanit', sans-serif;
-    padding: 12px;
+    padding: 10px auto;
 }
 
 .group3a{ 
     display: flex;
     justify-content: left;
-
 }
 
 .group3a .link{ 
@@ -133,102 +134,97 @@ body{
 }
 
 .group-2{
-    margin: 50px auto;
+    margin: 100px auto 0 auto;
 }
 .maintext, .submain{
     text-align: center;
-    justify-content: center;
     font-family: 'Kanit', sans-serif;
     color: var(--bg-black-000);
 }
 
-.maintext{
+.maintext h1{
     margin: 25px;
     font-weight: 600;
-    font-size: 36px;
+    font-size: 48px;
     line-height: 78px;
     flex-wrap: wrap;
     position: relative;
 }
 .maintext img{
     position: absolute;
-    left: 250px;
-    top: 140px;
+    left: 43%;
+    top: 330px;
 }
 
 .submain{
-    font-weight: 400;
+    margin: 20px auto;
+}
+.submain h4{
+    font-weight: 300;
     font-size: 14px;
     line-height: 28px; 
-    margin-bottom: 50px;
-
 }
-.maintext p .blue{
+.maintext span{
     color: var(--text-Primary-300);
 }
 
 .frame1650{
-    height: 100%;
+    height: 100px;
     width: 100%;
-    position: relative;
+    margin: 10px auto;
+    background-image: url(../media/Rectangle.png);
+    background-position: center;
+    background-size: 100% 100%;
 }
+
 .oval{
-    height: 50%;
-    width: 80%;
-    border: 1px solid red;
+    height: 40px;
+    width: 65%;
+    border-style: groove;
     border-radius: 50%;
     background-color: rgba(236, 137, 137, 0.1);
     margin: 25px auto;
 }
 .logo,.nav,.login{
-    /* padding-top: 15px; */
     align-self: center;
     align-content: center;
     height: auto;
-    width: 100%;
+    width: auto;
 }
 
 .logo a{
     font-weight: 900;
     color: var(--text-Primary-300);
-
 }
 
 .nav a, .login a{
-    padding: 0 10px;
+    padding: 0 20px;
     justify-content: space-between;
     color: var(--text-Main-text);
-    font-size: 16px;
-    font-weight: 300;
+    font-size: 18px;
+    font-weight: 400;
     font-family: 'Kanit', sans-serif;
 }
 
 .logo{
-    padding: 0 16px;
     display: flex;
     justify-content: center;
 }
 .logo .logo-icon{
-    height: 100%;
+    height: 80%;
     width: 30px;
-    margin: auto 16px; 
+    margin: auto 5px; 
 }
 .logo .logo-icon img{
-    height: 100%;
-    width: auto;
-    padding-top: 10px;
-    /* color: #005AE2; */
+    padding-top: 8px;
 }
 .logo .Logo-text span{
     color: var(--text-Primary-300);
-    margin-right: 10px;
 }
-.login{
-    margin-top: 4px;
-}
-a .urls{
+
+.nav .urls{
     color: var(--text-Primary-400);
-    font-weight: 800;
+    font-weight: 400;
 }
 
 .fa{
@@ -244,7 +240,6 @@ a .urls{
     justify-content: center;
     gap: 50px;
     font-family: 'Kanit', sans-serif;
-    font-size: 18px;
     margin: 50px auto;
 }
 
@@ -253,15 +248,16 @@ button{
     border: none;
     border-radius: 24px;
     align-self: center;
-    font-size: 14px;
-    padding: 10px 20px;
+    font-size: 16px;
+    padding: 10px 40px;
     margin: 0 10px;
     color: var(--bg-black-300);
     background-color: var(--text-Primary-300);
 }
 
-.HHF1648 .Learn_more{
+.Learn_more h4{
     color: var(--text-Primary-400);
+    
 }
 
 .Desktop-10{
