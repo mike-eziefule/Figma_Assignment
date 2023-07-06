@@ -16,12 +16,6 @@
     --bg-color-400:    #1E3448;
 }
 
-/*
-background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url('images/20190215_183334.jpg');
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-*/
 
 * {
     margin: 0;
@@ -33,7 +27,6 @@ background-position: center;
 a {
     text-decoration: none;
     font-size: 18px;
-
 }
 
 h5 {
@@ -46,19 +39,20 @@ h1{
     font-size: 36px;
     font-weight: 600;
     font-family: 'Kanit', sans-serif;
-
 }
+
 h2{
     font-size: 30px;
     font-weight: 500;
     font-family: 'Kanit', sans-serif;
-
 }
+
 h3{
     font-size: 26px;
     font-weight: 400;
     font-family: 'Kanit', sans-serif;
 }
+
 h4{
     font-size: 20px;
     font-weight: 400;
@@ -70,13 +64,12 @@ body{
     display: grid;
     grid-template-columns: auto;
     flex-wrap: wrap;
-    /* background-color: rgba(228, 14, 14, 0.1); */
     height: auto;
 }
 
 .HeroSection{
     display: grid;
-    grid-template-rows: 150px auto 300px 100px;
+    grid-template-rows: 50px auto 300px 100px;
     flex-wrap: nowrap;
     background-color: var(--bg-color-000);
     height: auto;
