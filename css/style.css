@@ -379,11 +379,9 @@ button{
     /* border: 1px solid rgb(28, 27, 27); */
 }
 .frame1719{
-    padding: 50px;
+    padding-bottom: 100px;
     display: flex;
-    margin-left: 325px;
-    margin-right: 325px;
-    
+    justify-content: center;
 }
 
 .Desktop-11{
@@ -436,16 +434,18 @@ button{
 .terms button{
     margin: 0;
     width: 100%;
-
 }
-.terms button h5{
-    margin: 0;
 
+.terms button{
+    margin: 0;
 }
 .terms h5{
-    margin:10px 0;
     width: 100%;
     font-size: 14px;
+}
+
+.fa-magic-wand-sparkles{
+    padding-left: 20px;
 }
 
 .frame1713{
@@ -473,7 +473,7 @@ button{
 }
 
 .group9{
-    margin: 100px 0;
+    margin: 100px 0 50px 0;
     width: 100%;
     height: auto;
     display: flex;
@@ -567,7 +567,7 @@ button{
     text-align: center;
 }
 .frame1651{
-    width: 70%;
+    width: 80%;
     margin: 30px auto;
     padding: 20px;
 }
@@ -585,6 +585,7 @@ button{
 .plus_question{
     display: flex;
     justify-content: space-between;
+    gap: 50px;
     margin: 15px;
     padding: 0;
    
@@ -616,7 +617,7 @@ button{
 }
 .frame1654{
     width: 60%;
-    margin: 100px auto;
+    margin: 20px auto;
     padding: 25px auto;
     display: grid;
     justify-content: space-between;
@@ -624,7 +625,7 @@ button{
 }
 .frame1654 button{
     width: 40%;
-    margin: 50px auto;
+    margin: 10px auto;
     color: var(--bg-black-300);
     font-size: 16px;
 
@@ -682,7 +683,6 @@ button{
     margin: 0;
 
 }
-
 
 .frame1649{
     height: 500px;
