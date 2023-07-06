@@ -626,6 +626,8 @@ button{
     width: 40%;
     margin: 50px auto;
     color: var(--bg-black-300);
+    font-size: 16px;
+
 }
 .frame1654 h1{
     font-size: 40px;
@@ -634,11 +636,10 @@ button{
 }
 
 .footer{
-    padding: 75px;
+    padding: 75px 50px 0px 75px;
     background-color: var(--bg-color-000);
     height: auto;
     width: 100%;
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
 }
@@ -647,6 +648,7 @@ button{
     height: 150px;
     width: 200px;
     display: grid;
+    justify-content: center;
 }
 .home{
     height: 50px;
@@ -661,33 +663,51 @@ button{
     padding: 10px 0;
 }
 .socials{
-    height: 50px;
+    height: auto;
     width: 100%;
 }
 .socials ul{
+    padding: 10px 0;
     display: flex;
-    justify-content: space-around;
+    gap: 10px;
     list-style-type: none;
     height: auto;
-    padding: 0 10px;
-    margin-top: 15px;
+    padding: auto;
+    /*margin-top: 15px;*/
 }
 .socials ul li{
     width: 40px;
     height: 40px;
+    align-items: center;
+    margin: 0;
+
 }
 
 
 .frame1649{
     height: 500px;
     width:75%;
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
 }
 
 .column{
     width: 150px;
-    border: 1px solid red;
+    display: grid;
+    justify-content: center;
+    gap: 50px;
+}
+.column h4{
+    width: 150px;
+    font-size: 16px;
+}
 
+.column .bold{
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.footnote{
+    margin: 0;
+    text-align: right;
 }
