@@ -23,8 +23,8 @@
     outline: none;
     text-decoration: none;
     box-sizing: border-box;
-    
 }
+
 a {
     text-decoration: none;
     font-size: 18px;
@@ -44,7 +44,7 @@ h1{
 }
 
 h2{
-    font-size: 32px;
+    font-size: 40px;
     font-weight: 500;
     font-family: 'Kanit', sans-serif;
 }
@@ -65,7 +65,6 @@ body{
     width: 100%;
     padding: 2% 10%;
     height: auto;
-    border: 1px solid black;
 
 }
 
@@ -75,8 +74,6 @@ background-size: 100px auto; */
 
 .HeroSection{
     display: grid;
-    /* background-color: var(--bg-color-000); */
-    
     height: auto;
     width: 100%;
     margin: auto;
@@ -89,7 +86,6 @@ background-size: 100px auto; */
     justify-content: space-between;
     margin: auto;
     padding: 0;
-    
 }
 
 .group-3{
@@ -117,8 +113,8 @@ background-size: 100px auto; */
 }
 .group3a .arrow{
     padding: 30px 10px;
-    /* content: url('https://api.iconify.design/cil/arrow-bottom.svg?color=%23005ae2&width=48&height=36&rotate=90deg&flip=vertical'); */
 }
+
 .group3b{
     font-family: 'Kanit', sans-serif;
     justify-content: center;
@@ -146,7 +142,7 @@ background-size: 100px auto; */
 .maintext h1{
     margin: 25px;
     font-weight: 600;
-    font-size: 48px;
+    /* font-size: 48px; */
     line-height: 78px;
     flex-wrap: wrap;
     position: relative;
@@ -337,7 +333,7 @@ button{
     line-height: 28px;
 }
 .text h2{
-   font-size: 40px;
+   /* font-size: 40px; */
 }
 
 .widgets{
@@ -419,10 +415,11 @@ button{
 .flex{
     display: flex;
     justify-content: space-between;
+    gap: 10px;
 }
 #domain,#Alias{
     padding-left: 20px;
-    width: 166px;
+    width: 100%;
     height:40px;
     border-radius: 10px;
     border: 1px solid var(--text-Primary-400);
@@ -496,7 +493,7 @@ button{
    line-height: 100px;
 }
 .group9 h2{
-   font-size: 40px;
+   /* font-size: 40px; */
    font-weight: 600;
    line-height: 20px;
 }
@@ -612,7 +609,7 @@ button{
     background-color: var(--bg-color-400);
     height: auto;
     width: 100%;
-    padding: 50px;
+    padding: 50px 0;
     margin: auto;
 }
 .frame1654{
