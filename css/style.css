@@ -65,7 +65,6 @@ body{
     width: 100%;
     padding: 2% 10%;
     height: auto;
-
 }
 
 /* background-image: url(../media/Rectangle.png);
@@ -86,6 +85,9 @@ background-size: 100px auto; */
     justify-content: space-between;
     margin: auto;
     padding: 0;
+}
+.menu{
+    display: none;
 }
 
 .group-3{
@@ -194,6 +196,10 @@ background-size: 100px auto; */
     color: var(--text-Primary-300);
 }
 
+.Heroheader a:hover{
+    color: var(--text-Primary-300);
+}
+
 .nav a, .login a{
     padding: 0 20px;
     justify-content: space-between;
@@ -257,6 +263,10 @@ button{
     
 }
 
+.Learn_more{
+    align-self: center;
+}
+
 .Desktop-10{
     height: auto;
     width: 100%;
@@ -277,7 +287,7 @@ button{
     width: auto;
 }
 
-.frame1692 p{
+.frame1692 h2{
     justify-self: center;
     font-size: 40px;
     font-weight: 500;
@@ -314,7 +324,7 @@ button{
 
 .intro{
     height: 50%;
-    padding: 0 10px;
+    padding: 0px;
     display: grid;
     justify-content: space-around;
     width: 40%;
@@ -331,9 +341,6 @@ button{
     padding: 10px;
     font-weight: 300;
     line-height: 28px;
-}
-.text h2{
-   /* font-size: 40px; */
 }
 
 .widgets{
@@ -372,8 +379,8 @@ button{
     background-color: var(--bg-color-000);
     height: auto;
     width: 100%;
-    /* border: 1px solid rgb(28, 27, 27); */
 }
+
 .frame1719{
     padding-bottom: 100px;
     display: flex;
@@ -496,6 +503,10 @@ button{
    /* font-size: 40px; */
    font-weight: 600;
    line-height: 20px;
+}
+
+.group90{
+    display: none;
 }
 
 .basic{
@@ -686,6 +697,7 @@ button{
     width:75%;
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .column{

@@ -1,0 +1,364 @@
+@media only screen and (max-width: 768px) {
+
+    body {
+        padding: 8% 5%;
+    }
+
+    .nav, .login{
+        display: none;
+    }
+
+    .menu{
+        position: relative;
+        display: block;
+        color: black;
+        padding-top: 12px;
+        padding-right: 10px;
+        cursor: pointer;
+    }
+
+    .nav-mobile a {
+        color: var(--bg-white-100);
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        font-family: 'Kanit', sans-serif;
+    }
+
+    .nav-mobile {
+        display: none;
+        position: absolute;
+        right: 0;
+        background-color: var(--bg-white-100);
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .nav-mobile a:hover {background-color: #ddd;}
+
+    .menu:hover .nav-mobile {display: block;}
+
+    .nav-mobile:hover {background-color: var(--text-Primary-300);}
+
+    .Heroheader{
+        width: 100%;
+    }
+
+    .nav a, .login a{
+        padding: 0 5px;
+    }
+
+    a {
+        font-size: 16px;
+    }
+    
+    h1{
+        font-size: 32px;
+    }
+    
+    h2{
+        font-size: 28px;
+    }
+    
+    h3{
+        font-size: 24px;
+    }
+    
+    h4{
+        font-size: 13px;
+    }
+    h5 {
+        font-size: 14px;
+    }
+    
+    .group-2{
+        margin: 50px auto 0 auto;
+    }
+
+    .maintext h1{
+        margin: 10px;
+        font-weight: 600;
+        /* font-size: 48px; */
+        line-height: 50px;
+        flex-wrap: nowrap;
+        position: relative;
+    }
+
+    .maintext img{
+        display: none;
+    }
+
+    .submain{
+        margin: 30px;
+    }
+
+    .submain h4{
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 24px; 
+    }
+
+    .HHF1648{
+        gap: 10px;
+        margin: 30px auto;
+    }
+    button{
+        padding: 10px 20px;
+        margin: auto;
+    }
+
+    .Learn_more h4{
+        font-size: 14px;
+        vertical-align: middle;
+    }
+
+    .group-3{
+        padding: 10px;
+        width: 100%;
+    }
+
+    .group3a .link{ 
+        content: url('https://api.iconify.design/iconamoon/link-thin.svg?width=40&height=40&flip=horizontal');
+        text-decoration: none;
+    }
+    .group3a .arrow{
+        padding: 20px 10px;
+        width: 60px;
+    }
+    .group3a .arrow img{
+        padding: 20px 10px;
+        width: 50px;
+    }
+
+    .group3b{
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .frame1650{
+        height: 40px;
+        margin: 20px auto;
+    }
+
+    .oval{
+        height: 20px;
+        width: 70%;
+        border-style: groove;
+        border-radius: 50%;
+        background-color: rgba(236, 137, 137, 0.1);
+        margin: 10px auto;
+    }
+
+    .Desktop-10{
+        grid-template-rows:auto auto;
+        margin: auto;
+    }
+    .onestop{
+        display: grid;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    .frame1692 h2{
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .frame1715{
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 50px;
+        margin: 20px auto;
+    }
+
+    .whyscissors{
+        padding: 20px 0;
+        display: grid;
+        flex-wrap: nowrap;
+        /* text-align: center; */
+    }
+
+    .intro{
+        height: auto;
+        justify-content:center;
+        width: 100%;
+    }
+
+    .widgets{
+        width: 100%;
+        height: auto;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .text{
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .topwidget{
+        margin-bottom: auto;
+        justify-content: space-between;
+    }
+
+    .format{
+        padding-bottom: 50px;
+        padding-top: 0;
+        padding-right: 0;
+    }
+
+    .frame1713{
+        margin: 50px auto;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        line-height: 10px;
+        position: relative;
+    }
+
+    .frame1713 h2{
+        line-height: 36px;
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .Desktop-1{
+        width: 100%;
+        padding: 20px 0;
+    }
+    .group9{
+        display: none;
+    }
+
+    .group90{
+        width: 100%;
+        display: grid;
+        gap: 20px;
+        /* grid-template-columns: max-content; */
+    }
+
+    .basic90{
+        padding: 20px;
+        margin: 20px;
+        list-style-type: none;
+        border: 1px solid var(--text-Primary-400);
+        border-radius: 15px;
+    }
+    .professional90{
+        color: #FFFFFF;
+        padding: 40px 20px;
+        margin: 20px;
+        list-style-type: none;
+        border-radius: 15px;
+        background-color: var(--bg-color-400);
+    }
+
+    .frame1719{
+        padding: 20px 0;
+        display: flex;
+        gap: 10px;
+        margin: auto;
+
+    }
+
+    .Desktop-11{
+        width: 100%;
+        padding: 20px 10px;
+        margin: auto;
+    }
+
+    .form{
+        width: 100%;
+        margin: 50px auto;
+    }
+
+    .frame1651{
+        width: 100%;
+        margin: 30px auto;
+        padding: 0;
+    }
+
+    .frame1652 img{
+        left: 30%;
+    }
+
+    .plus{
+        padding: 0;
+        margin: 20px auto;
+    }
+
+    .plus_answer{
+        margin: 15px;
+        padding: 10px;
+
+    }
+
+    .plus_question{
+        margin: 50px auto;
+        padding: 0;
+       
+    }
+        
+    .flex{
+        gap: 10px;
+    }
+
+    .frame1654{
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .frame1654 h1{
+        font-size: 28px;
+    }
+
+    .footer{
+        padding: 75px 0px;
+        display: grid;
+        justify-content: center;
+        height: auto;
+    }
+
+    .frame1714{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .home{
+        margin: 0;
+        justify-content: left;
+        gap: 10px;
+    }
+
+    .home img{
+        padding: 15px 0;
+    }
+
+    .socials{
+        padding: 25px 0;
+        justify-content: left;
+    }
+
+    .socials ul{
+        padding: 0;
+        /* justify-content: center; */
+        gap: 10px;
+    }
+
+    .frame1649{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        padding: 0 20px;
+    }
+
+}

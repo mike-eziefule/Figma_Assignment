@@ -5,47 +5,30 @@
     }
 
     .nav a, .login a{
-        padding: 0 10px;
-        justify-content: space-between;
-        color: var(--text-Main-text);
-        font-weight: 400;
-        font-family: 'Kanit', sans-serif;
+        padding: 0 5px;
     }
 
     a {
-        text-decoration: none;
         font-size: 16px;
     }
-
     
     h1{
         font-size: 36px;
-        font-weight: 600;
-        font-family: 'Kanit', sans-serif;
     }
     
     h2{
         font-size: 32px;
-        font-weight: 500;
-        font-family: 'Kanit', sans-serif;
     }
     
     h3{
         font-size: 24px;
-        font-weight: 400;
-        font-family: 'Kanit', sans-serif;
     }
     
     h4{
         font-size: 18px;
-        font-weight: 400;
-        font-family: 'Kanit', sans-serif;
     }
     h5 {
         font-size: 16px;
-        font-weight: 300;
-        line-height: 24px;
-        font-family: 'Kanit', sans-serif;
     }
     
     .group-2{
@@ -61,6 +44,10 @@
         width: 60%;
     }
 
+    .group90{
+        display: none;
+    }
+
     .basic{
         height: 450px;
         top: 70px;
@@ -70,20 +57,11 @@
     }
 
     .professional{
-        height: 600px;
         width: 350px;
-        margin: auto;
-        border-radius: 15px;
         padding: 75px 0 0 50px;
-        border: 1px solid var(--text-Primary-400);
-        background-color: var(--bg-color-400);
-        z-index: 1;
-        color: #FFFFFF;
-        list-style-type: none;
     }
     
     .teams{
-        top: 70px;
         right: 0;
         height: 450px;
         width: 300px;
@@ -103,7 +81,14 @@
     }
 
     .footer{
-        padding: 75px 10px 0px 10px;
-        gap:50px
+        padding: 75px 0px 10px 0px;
     }
+    .frame1652 img{
+        left: 43%;
+    }
+
+    .frame1649{
+        gap: 20px;
+    }
+
 }
